@@ -41,4 +41,14 @@ app.listen( port ,() => {
 })
 ```
 
+## packagees
+
+* colors
+* nodemon
+* express
+* multer
+* nodemailer
+* axios
+
+
 
