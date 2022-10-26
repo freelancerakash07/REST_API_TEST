@@ -1,7 +1,7 @@
 const colors = require('colors');
 const express = require('express');
 const dotenv  = require('dotenv');
-
+const userroute = require('./routes/userRoute')
 
 // env file config
 dotenv.config();
@@ -18,6 +18,9 @@ const app = express();
 // data manage 
 app.use(express.json());
 app.use(express.urlencoded({extended : false}));
+
+// get router
+app.use('/api/v1/user', userroute )
 
 
 
