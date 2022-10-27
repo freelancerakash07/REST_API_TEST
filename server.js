@@ -27,7 +27,7 @@ app.use('/api/v1/user', userroute )
 // express server create 
 app.listen( port ,() => {
 
-    console.log(`server is ranging on port ${port}`.bgGreen.black);
+    console.log(`server Is ranging on port ${port}`.bgGreen.black);
 })
 
 
